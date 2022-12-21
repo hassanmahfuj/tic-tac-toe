@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-content">
+        <h1>TIC TAC TOE</h1>
+        <p>Game starts by tap on a box</p>
+
+        <div id="game-display">
+            <input type="text" id="b1" readonly onclick="fill('b1')">
+            <input type="text" id="b2" readonly onclick="fill('b2')">
+            <input type="text" id="b3" readonly onclick="fill('b3')">
+            <br><br>
+            <input type="text" id="b4" readonly onclick="fill('b4')">
+            <input type="text" id="b5" readonly onclick="fill('b5')">
+            <input type="text" id="b6" readonly onclick="fill('b6')">
+            <br><br>
+            <input type="text" id="b7" readonly onclick="fill('b7')">
+            <input type="text" id="b8" readonly onclick="fill('b8')">
+            <input type="text" id="b9" readonly onclick="fill('b9')">
+            <br><br>
+        </div>
+
+        <div id="winner"></div>
+        <br><br>
+        <button onclick="resetGame()">RESET</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

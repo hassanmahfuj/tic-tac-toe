@@ -1,0 +1,9 @@
+#main-content {
+    text-align: center;
+}
+#game-display > input {
+    width: 80px;
+    height: 52px;
+    font-size: 30px;
+    text-align: center;
+}
